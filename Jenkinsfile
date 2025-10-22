@@ -11,7 +11,7 @@ pipeline {
   stages {
     stage('Checkout Code') {
       steps {
-        git url: 'https://github.com/sangammukherjee/devops-youtube-course-2025.git', branch: 'main'
+        git url: 'https://github.com/abuabddullah/devops-asif.git', branch: 'main'
       }
     }
 
