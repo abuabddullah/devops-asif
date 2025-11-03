@@ -2,8 +2,8 @@ pipeline {
   agent any
 
   environment {
-    FRONTEND_IMAGE = "mern-frontend:jenkins"
-    BACKEND_IMAGE  = "mern-backend:jenkins"
+    FRONTEND_IMAGE = "abuabddullah/mern-frontend:1.0"
+    BACKEND_IMAGE  = "abuabddullah/mern-backend:1.0"
     PORT = "5000"
     MONGO_URI = "mongodb://mongo:27017/taskdb"
   }
